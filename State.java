@@ -1,4 +1,3 @@
-/** حالة غير قابلة للتغيير: كمية الماء في كل وعاء + الأب + الإجراء الذي أنتجها. */
 public final class State {
     private final int jugA;
     private final int jugB;

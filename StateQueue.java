@@ -1,4 +1,3 @@
-/** طابور دائري بسعة ثابتة. */
 public class StateQueue {
     private final State[] data;
     private int front = 0;

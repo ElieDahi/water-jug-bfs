@@ -1,4 +1,3 @@
-/** تعريف المشكلة: سعتا الوعاءين والهدف، وتوليد الحالات التالية. */
 public class WaterJug {
     private final int capA;
     private final int capB;
