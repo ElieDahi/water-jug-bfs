@@ -9,7 +9,7 @@ public class BFS {
         int rows = game.getCapA() + 1;
         int cols = game.getCapB() + 1;
 
-        Statequeue queue = new Statequeue(rows * cols);
+        StateQueue queue = new StateQueue(rows * cols);
         boolean[][] visited = new boolean[rows][cols];
 
         State start = game.start();

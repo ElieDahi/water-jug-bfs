@@ -1,10 +1,10 @@
 /** طابور دائري بسعة ثابتة. */
-public class Statequeue {
+public class StateQueue {
     private final State[] data;
     private int front = 0;
     private int size = 0;
 
-    public Statequeue(int capacity) {
+    public StateQueue(int capacity) {
         data = new State[capacity];
     }
 
